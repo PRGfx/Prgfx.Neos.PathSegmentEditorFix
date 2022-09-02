@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          Prgfx.Neos.PathSegmentEditorFix:
+            resource: 'resource://Prgfx.Neos.PathSegmentEditorFix/Public/Plugin.js'
+        stylesheets:
+          Prgfx.Neos.PathSegmentEditorFix:
+            resource: 'resource://Prgfx.Neos.PathSegmentEditorFix/Public/Plugin.css'

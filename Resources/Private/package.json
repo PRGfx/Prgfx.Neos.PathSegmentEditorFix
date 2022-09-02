@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "lint": "eslint src/",
+        "build": "neos-react-scripts build",
+        "watch": "neos-react-scripts watch"
+    },
+    "devDependencies": {
+        "@neos-project/neos-ui-extensibility": "*",
+        "@typescript-eslint/eslint-plugin": "^4.24.0",
+        "@typescript-eslint/parser": "^4.24.0",
+        "eslint": "^7.27.0",
+        "eslint-plugin-react": "^7.23.2"
+    },
+    "neos": {
+        "buildTargetDirectory": "../Public/"
+    },
+    "peerDependencies": {
+        "@neos-project/react-ui-components": "^7.1.1",
+        "classnames": "^2.3.1",
+        "react": "^17.0.2",
+        "react-redux": "^7.2.4"
+    },
+    "dependencies": {
+        "@neos-project/react-ui-components": "^7.1.1",
+        "@sindresorhus/slugify": "^2.1.0",
+        "lodash.unescape": "^4.0.1"
+    }
+}

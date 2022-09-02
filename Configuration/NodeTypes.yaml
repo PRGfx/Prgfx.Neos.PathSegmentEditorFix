@@ -1,0 +1,6 @@
+'Neos.Neos:Document':
+  properties:
+    uriPathSegment:
+      ui:
+        inspector:
+          editor: 'Prgfx.Neos.NeosPathSegmentEditorFix/UriPathSegmentEditor'

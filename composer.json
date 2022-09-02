@@ -1,0 +1,16 @@
+{
+    "name": "prgfx/neos-pathsegment-edtor-fix",
+    "type": "neos-package",
+    "description": "Resets defaults and adds options to customize special-character handling in the neos uri-path-segment editor.",
+    "extra": {
+        "neos": {
+            "package-key": "Prgfx.Neos.PathSegmentEditorFix"
+        }
+    },
+    "require": {
+        "neos/neos-ui": "^5 || ^7"
+    },
+    "license": [
+        "GPL-3.0-or-later"
+    ]
+}
